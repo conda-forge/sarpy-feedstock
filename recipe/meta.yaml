@@ -1,5 +1,5 @@
 {% set name = "sarpy" %}
-{% set version = "1.2.41" %}
+{% set version = "1.2.43" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sarpy-{{ version }}.tar.gz
-  sha256: 01539cc36271d435bb982917684bdc726850578c6cacccecbe59bf708a1515c2
+  sha256: ea55f4662bf037ab11ae18252c0a1a918eb7d3e0c0c98f45c1006d47fb86e5ea
 
 build:
   number: 0
@@ -40,17 +40,17 @@ about:
   license_family: MIT
   license_file: LICENSE
   description: |
-      SarPy is a basic Python library to read, write, display, and do simple processing of complex SAR data using the
-      NGA SICD format. It has been released by NGA to encourage the use of SAR data standards throughout the
-      international SAR community. SarPy complements the SIX library (C++) and the MATLAB SAR Toolbox, which are
-      implemented in other languages but have similar goals.
+    SarPy is a basic Python library to read, write, display, and do simple processing of complex SAR data using the
+    NGA SICD format. It has been released by NGA to encourage the use of SAR data standards throughout the
+    international SAR community. SarPy complements the SIX library (C++) and the MATLAB SAR Toolbox, which are
+    implemented in other languages but have similar goals.
 
-      Some sample SICD files can be found here.
+    Some sample SICD files can be found here.
 
-      In addition to SICD, SarPy can also read COSMO-SkyMed, RADARSAT-2, Radar Constellation Mission (RCM), and
-      Sentinel-1 SLC formats and convert them to SICD.
+    In addition to SICD, SarPy can also read COSMO-SkyMed, RADARSAT-2, Radar Constellation Mission (RCM), and
+    Sentinel-1 SLC formats and convert them to SICD.
 
-      Some examples of how to read complex SAR data using SarPy are provided in docs/sarpy_example.py.
+    Some examples of how to read complex SAR data using SarPy are provided in docs/sarpy_example.py.
   doc_url: https://sarpy.readthedocs.io/en/latest/
   dev_url: https://github.com/ngageoint/sarpy
 
