@@ -23,6 +23,12 @@ requirements:
     - numpy >=1.11.0
     - python >=3.6
     - scipy
+    - pillow
+    - lxml
+    - matplotlib
+    - h5py
+    - smart_open
+    - pytest
 
 test:
   imports:
