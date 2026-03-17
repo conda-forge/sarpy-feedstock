@@ -1,5 +1,5 @@
 {% set name = "sarpy" %}
-{% set version = "1.3.59" %}
+{% set version = "1.3.60" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sarpy-{{ version }}.tar.gz
-  sha256: 916fc14ddb77a0a2a8fd6961b7865167cfa603ec7510412d9494c587cd44eb3c
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sarpy-{{ version }}.tar.gz
+  sha256: cf9ef0359419b1e69dfc3ea9eed5507ad6bd1479da386d1b513d8e5d904dfcda
 
 build:
   number: 0
